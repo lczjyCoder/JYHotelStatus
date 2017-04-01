@@ -9,12 +9,41 @@
 /* Begin PBXBuildFile section */
 		80C676451E8E5E25000303C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676441E8E5E25000303C9 /* main.m */; };
 		80C676481E8E5E25000303C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676471E8E5E25000303C9 /* AppDelegate.m */; };
-		80C6764B1E8E5E25000303C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6764A1E8E5E25000303C9 /* ViewController.m */; };
-		80C6764E1E8E5E25000303C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C6764C1E8E5E25000303C9 /* Main.storyboard */; };
 		80C676501E8E5E25000303C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C6764F1E8E5E25000303C9 /* Assets.xcassets */; };
 		80C676531E8E5E25000303C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C676511E8E5E25000303C9 /* LaunchScreen.storyboard */; };
 		80C6765E1E8E5E25000303C9 /* JYHotelStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6765D1E8E5E25000303C9 /* JYHotelStatusTests.m */; };
 		80C676691E8E5E25000303C9 /* JYHotelStatusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676681E8E5E25000303C9 /* JYHotelStatusUITests.m */; };
+		80C676921E8F4B77000303C9 /* HotelStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6767F1E8F4B77000303C9 /* HotelStatusModel.m */; };
+		80C676931E8F4B77000303C9 /* HotelChangeStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676821E8F4B77000303C9 /* HotelChangeStatusCell.m */; };
+		80C676941E8F4B77000303C9 /* HotelStatusDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676841E8F4B77000303C9 /* HotelStatusDateCell.m */; };
+		80C676951E8F4B77000303C9 /* RemainStockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676861E8F4B77000303C9 /* RemainStockCell.m */; };
+		80C676961E8F4B77000303C9 /* SelectWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676881E8F4B77000303C9 /* SelectWeekCell.m */; };
+		80C676971E8F4B77000303C9 /* TotalStockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6768A1E8F4B77000303C9 /* TotalStockCell.m */; };
+		80C6769C1E8F92B0000303C9 /* JyHotelStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6769B1E8F92B0000303C9 /* JyHotelStatusViewController.m */; };
+		80C6769F1E8F92D1000303C9 /* JYDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C6769E1E8F92D1000303C9 /* JYDateTool.m */; };
+		80C676A41E8F93BD000303C9 /* JYCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676A11E8F93BD000303C9 /* JYCollectionViewFlowLayout.m */; };
+		80C676A51E8F93BD000303C9 /* JYGroupedCellBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676A31E8F93BD000303C9 /* JYGroupedCellBgView.m */; };
+		80C676C31E8F95E1000303C9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80C676A71E8F95E1000303C9 /* LICENSE */; };
+		80C676C41E8F95E1000303C9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676AA1E8F95E1000303C9 /* MASCompositeConstraint.m */; };
+		80C676C51E8F95E1000303C9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676AD1E8F95E1000303C9 /* MASConstraint.m */; };
+		80C676C61E8F95E1000303C9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676AF1E8F95E1000303C9 /* MASConstraintMaker.m */; };
+		80C676C71E8F95E1000303C9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676B11E8F95E1000303C9 /* MASLayoutConstraint.m */; };
+		80C676C81E8F95E1000303C9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676B51E8F95E1000303C9 /* MASViewAttribute.m */; };
+		80C676C91E8F95E1000303C9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676B71E8F95E1000303C9 /* MASViewConstraint.m */; };
+		80C676CA1E8F95E1000303C9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676B91E8F95E1000303C9 /* NSArray+MASAdditions.m */; };
+		80C676CB1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676BC1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		80C676CC1E8F95E1000303C9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676BE1E8F95E1000303C9 /* View+MASAdditions.m */; };
+		80C676CD1E8F95E1000303C9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676C11E8F95E1000303C9 /* ViewController+MASAdditions.m */; };
+		80C676CE1E8F95E1000303C9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 80C676C21E8F95E1000303C9 /* README.md */; };
+		80C676D21E8F970B000303C9 /* JYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C676D11E8F970B000303C9 /* JYConfig.m */; };
+		80C676E21E8FA684000303C9 /* addGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DA1E8FA684000303C9 /* addGrey@2x.png */; };
+		80C676E31E8FA684000303C9 /* addGrey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DB1E8FA684000303C9 /* addGrey@3x.png */; };
+		80C676E41E8FA684000303C9 /* addRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DC1E8FA684000303C9 /* addRed@2x.png */; };
+		80C676E51E8FA684000303C9 /* addRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DD1E8FA684000303C9 /* addRed@3x.png */; };
+		80C676E61E8FA684000303C9 /* subtractGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DE1E8FA684000303C9 /* subtractGrey@2x.png */; };
+		80C676E71E8FA684000303C9 /* subtractGrey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676DF1E8FA684000303C9 /* subtractGrey@3x.png */; };
+		80C676E81E8FA684000303C9 /* subtractRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676E01E8FA684000303C9 /* subtractRed@2x.png */; };
+		80C676E91E8FA684000303C9 /* subtractRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C676E11E8FA684000303C9 /* subtractRed@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +68,6 @@
 		80C676441E8E5E25000303C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80C676461E8E5E25000303C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80C676471E8E5E25000303C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80C676491E8E5E25000303C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80C6764A1E8E5E25000303C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		80C6764D1E8E5E25000303C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80C6764F1E8E5E25000303C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C676521E8E5E25000303C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C676541E8E5E25000303C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +77,64 @@
 		80C676641E8E5E25000303C9 /* JYHotelStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYHotelStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C676681E8E5E25000303C9 /* JYHotelStatusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYHotelStatusUITests.m; sourceTree = "<group>"; };
 		80C6766A1E8E5E25000303C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C6767E1E8F4B77000303C9 /* HotelStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelStatusModel.h; sourceTree = "<group>"; };
+		80C6767F1E8F4B77000303C9 /* HotelStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelStatusModel.m; sourceTree = "<group>"; };
+		80C676811E8F4B77000303C9 /* HotelChangeStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelChangeStatusCell.h; sourceTree = "<group>"; };
+		80C676821E8F4B77000303C9 /* HotelChangeStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelChangeStatusCell.m; sourceTree = "<group>"; };
+		80C676831E8F4B77000303C9 /* HotelStatusDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelStatusDateCell.h; sourceTree = "<group>"; };
+		80C676841E8F4B77000303C9 /* HotelStatusDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelStatusDateCell.m; sourceTree = "<group>"; };
+		80C676851E8F4B77000303C9 /* RemainStockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemainStockCell.h; sourceTree = "<group>"; };
+		80C676861E8F4B77000303C9 /* RemainStockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemainStockCell.m; sourceTree = "<group>"; };
+		80C676871E8F4B77000303C9 /* SelectWeekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectWeekCell.h; sourceTree = "<group>"; };
+		80C676881E8F4B77000303C9 /* SelectWeekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectWeekCell.m; sourceTree = "<group>"; };
+		80C676891E8F4B77000303C9 /* TotalStockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalStockCell.h; sourceTree = "<group>"; };
+		80C6768A1E8F4B77000303C9 /* TotalStockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalStockCell.m; sourceTree = "<group>"; };
+		80C6769A1E8F92B0000303C9 /* JYHotelStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYHotelStatusViewController.h; sourceTree = "<group>"; };
+		80C6769B1E8F92B0000303C9 /* JyHotelStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyHotelStatusViewController.m; sourceTree = "<group>"; };
+		80C6769D1E8F92D1000303C9 /* JYDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDateTool.h; sourceTree = "<group>"; };
+		80C6769E1E8F92D1000303C9 /* JYDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDateTool.m; sourceTree = "<group>"; };
+		80C676A01E8F93BD000303C9 /* JYCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		80C676A11E8F93BD000303C9 /* JYCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		80C676A21E8F93BD000303C9 /* JYGroupedCellBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGroupedCellBgView.h; sourceTree = "<group>"; };
+		80C676A31E8F93BD000303C9 /* JYGroupedCellBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGroupedCellBgView.m; sourceTree = "<group>"; };
+		80C676A71E8F95E1000303C9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		80C676A91E8F95E1000303C9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		80C676AA1E8F95E1000303C9 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		80C676AB1E8F95E1000303C9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		80C676AC1E8F95E1000303C9 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		80C676AD1E8F95E1000303C9 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		80C676AE1E8F95E1000303C9 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		80C676AF1E8F95E1000303C9 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		80C676B01E8F95E1000303C9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		80C676B11E8F95E1000303C9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		80C676B21E8F95E1000303C9 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		80C676B31E8F95E1000303C9 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		80C676B41E8F95E1000303C9 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		80C676B51E8F95E1000303C9 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		80C676B61E8F95E1000303C9 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		80C676B71E8F95E1000303C9 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		80C676B81E8F95E1000303C9 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		80C676B91E8F95E1000303C9 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		80C676BA1E8F95E1000303C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		80C676BB1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		80C676BC1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		80C676BD1E8F95E1000303C9 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		80C676BE1E8F95E1000303C9 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		80C676BF1E8F95E1000303C9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		80C676C01E8F95E1000303C9 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		80C676C11E8F95E1000303C9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		80C676C21E8F95E1000303C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80C676CF1E8F96C5000303C9 /* JY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JY-Prefix.pch"; sourceTree = "<group>"; };
+		80C676D01E8F970B000303C9 /* JYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYConfig.h; sourceTree = "<group>"; };
+		80C676D11E8F970B000303C9 /* JYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYConfig.m; sourceTree = "<group>"; };
+		80C676DA1E8FA684000303C9 /* addGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addGrey@2x.png"; sourceTree = "<group>"; };
+		80C676DB1E8FA684000303C9 /* addGrey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addGrey@3x.png"; sourceTree = "<group>"; };
+		80C676DC1E8FA684000303C9 /* addRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addRed@2x.png"; sourceTree = "<group>"; };
+		80C676DD1E8FA684000303C9 /* addRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addRed@3x.png"; sourceTree = "<group>"; };
+		80C676DE1E8FA684000303C9 /* subtractGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subtractGrey@2x.png"; sourceTree = "<group>"; };
+		80C676DF1E8FA684000303C9 /* subtractGrey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subtractGrey@3x.png"; sourceTree = "<group>"; };
+		80C676E01E8FA684000303C9 /* subtractRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subtractRed@2x.png"; sourceTree = "<group>"; };
+		80C676E11E8FA684000303C9 /* subtractRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subtractRed@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +187,9 @@
 			children = (
 				80C676461E8E5E25000303C9 /* AppDelegate.h */,
 				80C676471E8E5E25000303C9 /* AppDelegate.m */,
-				80C676491E8E5E25000303C9 /* ViewController.h */,
-				80C6764A1E8E5E25000303C9 /* ViewController.m */,
-				80C6764C1E8E5E25000303C9 /* Main.storyboard */,
+				80C676D91E8FA684000303C9 /* Image */,
+				80C676761E8F41E1000303C9 /* Class */,
+				80C676A61E8F95E1000303C9 /* Masonry */,
 				80C6764F1E8E5E25000303C9 /* Assets.xcassets */,
 				80C676511E8E5E25000303C9 /* LaunchScreen.storyboard */,
 				80C676541E8E5E25000303C9 /* Info.plist */,
@@ -117,6 +201,7 @@
 		80C676431E8E5E25000303C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80C676CF1E8F96C5000303C9 /* JY-Prefix.pch */,
 				80C676441E8E5E25000303C9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +223,132 @@
 				80C6766A1E8E5E25000303C9 /* Info.plist */,
 			);
 			path = JYHotelStatusUITests;
+			sourceTree = "<group>";
+		};
+		80C676761E8F41E1000303C9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				80C6767A1E8F4B77000303C9 /* Tool */,
+				80C6767D1E8F4B77000303C9 /* Model */,
+				80C676801E8F4B77000303C9 /* Cell */,
+				80C6768B1E8F4B77000303C9 /* Controller */,
+				80C6768C1E8F4B77000303C9 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		80C6767A1E8F4B77000303C9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				80C6769D1E8F92D1000303C9 /* JYDateTool.h */,
+				80C6769E1E8F92D1000303C9 /* JYDateTool.m */,
+				80C676D01E8F970B000303C9 /* JYConfig.h */,
+				80C676D11E8F970B000303C9 /* JYConfig.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		80C6767D1E8F4B77000303C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80C6767E1E8F4B77000303C9 /* HotelStatusModel.h */,
+				80C6767F1E8F4B77000303C9 /* HotelStatusModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80C676801E8F4B77000303C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80C676811E8F4B77000303C9 /* HotelChangeStatusCell.h */,
+				80C676821E8F4B77000303C9 /* HotelChangeStatusCell.m */,
+				80C676831E8F4B77000303C9 /* HotelStatusDateCell.h */,
+				80C676841E8F4B77000303C9 /* HotelStatusDateCell.m */,
+				80C676851E8F4B77000303C9 /* RemainStockCell.h */,
+				80C676861E8F4B77000303C9 /* RemainStockCell.m */,
+				80C676871E8F4B77000303C9 /* SelectWeekCell.h */,
+				80C676881E8F4B77000303C9 /* SelectWeekCell.m */,
+				80C676891E8F4B77000303C9 /* TotalStockCell.h */,
+				80C6768A1E8F4B77000303C9 /* TotalStockCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80C6768B1E8F4B77000303C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80C6769A1E8F92B0000303C9 /* JYHotelStatusViewController.h */,
+				80C6769B1E8F92B0000303C9 /* JyHotelStatusViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80C6768C1E8F4B77000303C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80C676A01E8F93BD000303C9 /* JYCollectionViewFlowLayout.h */,
+				80C676A11E8F93BD000303C9 /* JYCollectionViewFlowLayout.m */,
+				80C676A21E8F93BD000303C9 /* JYGroupedCellBgView.h */,
+				80C676A31E8F93BD000303C9 /* JYGroupedCellBgView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80C676A61E8F95E1000303C9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				80C676A71E8F95E1000303C9 /* LICENSE */,
+				80C676A81E8F95E1000303C9 /* Masonry */,
+				80C676C21E8F95E1000303C9 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		80C676A81E8F95E1000303C9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				80C676A91E8F95E1000303C9 /* MASCompositeConstraint.h */,
+				80C676AA1E8F95E1000303C9 /* MASCompositeConstraint.m */,
+				80C676AB1E8F95E1000303C9 /* MASConstraint+Private.h */,
+				80C676AC1E8F95E1000303C9 /* MASConstraint.h */,
+				80C676AD1E8F95E1000303C9 /* MASConstraint.m */,
+				80C676AE1E8F95E1000303C9 /* MASConstraintMaker.h */,
+				80C676AF1E8F95E1000303C9 /* MASConstraintMaker.m */,
+				80C676B01E8F95E1000303C9 /* MASLayoutConstraint.h */,
+				80C676B11E8F95E1000303C9 /* MASLayoutConstraint.m */,
+				80C676B21E8F95E1000303C9 /* Masonry.h */,
+				80C676B31E8F95E1000303C9 /* MASUtilities.h */,
+				80C676B41E8F95E1000303C9 /* MASViewAttribute.h */,
+				80C676B51E8F95E1000303C9 /* MASViewAttribute.m */,
+				80C676B61E8F95E1000303C9 /* MASViewConstraint.h */,
+				80C676B71E8F95E1000303C9 /* MASViewConstraint.m */,
+				80C676B81E8F95E1000303C9 /* NSArray+MASAdditions.h */,
+				80C676B91E8F95E1000303C9 /* NSArray+MASAdditions.m */,
+				80C676BA1E8F95E1000303C9 /* NSArray+MASShorthandAdditions.h */,
+				80C676BB1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				80C676BC1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				80C676BD1E8F95E1000303C9 /* View+MASAdditions.h */,
+				80C676BE1E8F95E1000303C9 /* View+MASAdditions.m */,
+				80C676BF1E8F95E1000303C9 /* View+MASShorthandAdditions.h */,
+				80C676C01E8F95E1000303C9 /* ViewController+MASAdditions.h */,
+				80C676C11E8F95E1000303C9 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		80C676D91E8FA684000303C9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				80C676DA1E8FA684000303C9 /* addGrey@2x.png */,
+				80C676DB1E8FA684000303C9 /* addGrey@3x.png */,
+				80C676DC1E8FA684000303C9 /* addRed@2x.png */,
+				80C676DD1E8FA684000303C9 /* addRed@3x.png */,
+				80C676DE1E8FA684000303C9 /* subtractGrey@2x.png */,
+				80C676DF1E8FA684000303C9 /* subtractGrey@3x.png */,
+				80C676E01E8FA684000303C9 /* subtractRed@2x.png */,
+				80C676E11E8FA684000303C9 /* subtractRed@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +460,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C676E41E8FA684000303C9 /* addRed@2x.png in Resources */,
+				80C676C31E8F95E1000303C9 /* LICENSE in Resources */,
 				80C676531E8E5E25000303C9 /* LaunchScreen.storyboard in Resources */,
 				80C676501E8E5E25000303C9 /* Assets.xcassets in Resources */,
-				80C6764E1E8E5E25000303C9 /* Main.storyboard in Resources */,
+				80C676E81E8FA684000303C9 /* subtractRed@2x.png in Resources */,
+				80C676E21E8FA684000303C9 /* addGrey@2x.png in Resources */,
+				80C676E71E8FA684000303C9 /* subtractGrey@3x.png in Resources */,
+				80C676E31E8FA684000303C9 /* addGrey@3x.png in Resources */,
+				80C676E51E8FA684000303C9 /* addRed@3x.png in Resources */,
+				80C676E91E8FA684000303C9 /* subtractRed@3x.png in Resources */,
+				80C676E61E8FA684000303C9 /* subtractGrey@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +495,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C6764B1E8E5E25000303C9 /* ViewController.m in Sources */,
 				80C676481E8E5E25000303C9 /* AppDelegate.m in Sources */,
+				80C676CA1E8F95E1000303C9 /* NSArray+MASAdditions.m in Sources */,
+				80C676A51E8F93BD000303C9 /* JYGroupedCellBgView.m in Sources */,
+				80C676CB1E8F95E1000303C9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				80C676961E8F4B77000303C9 /* SelectWeekCell.m in Sources */,
+				80C676921E8F4B77000303C9 /* HotelStatusModel.m in Sources */,
+				80C676D21E8F970B000303C9 /* JYConfig.m in Sources */,
+				80C676C81E8F95E1000303C9 /* MASViewAttribute.m in Sources */,
+				80C676C71E8F95E1000303C9 /* MASLayoutConstraint.m in Sources */,
+				80C676CE1E8F95E1000303C9 /* README.md in Sources */,
+				80C676C41E8F95E1000303C9 /* MASCompositeConstraint.m in Sources */,
+				80C676A41E8F93BD000303C9 /* JYCollectionViewFlowLayout.m in Sources */,
+				80C676971E8F4B77000303C9 /* TotalStockCell.m in Sources */,
+				80C676C91E8F95E1000303C9 /* MASViewConstraint.m in Sources */,
+				80C676951E8F4B77000303C9 /* RemainStockCell.m in Sources */,
+				80C6769F1E8F92D1000303C9 /* JYDateTool.m in Sources */,
+				80C676931E8F4B77000303C9 /* HotelChangeStatusCell.m in Sources */,
 				80C676451E8E5E25000303C9 /* main.m in Sources */,
+				80C676CD1E8F95E1000303C9 /* ViewController+MASAdditions.m in Sources */,
+				80C676C61E8F95E1000303C9 /* MASConstraintMaker.m in Sources */,
+				80C6769C1E8F92B0000303C9 /* JyHotelStatusViewController.m in Sources */,
+				80C676C51E8F95E1000303C9 /* MASConstraint.m in Sources */,
+				80C676941E8F4B77000303C9 /* HotelStatusDateCell.m in Sources */,
+				80C676CC1E8F95E1000303C9 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +554,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80C6764C1E8E5E25000303C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80C6764D1E8E5E25000303C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80C676511E8E5E25000303C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -374,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -428,8 +660,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
+				GCC_PREFIX_HEADER = "JYHotelStatus/JY-Prefix.pch";
 				INFOPLIST_FILE = JYHotelStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYHotelStatus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -440,8 +675,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
+				GCC_PREFIX_HEADER = "JYHotelStatus/JY-Prefix.pch";
 				INFOPLIST_FILE = JYHotelStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYHotelStatus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -452,6 +690,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
+				GCC_PREFIX_HEADER = "JYHotelStatus/JY-Prefix.pch";
 				INFOPLIST_FILE = JYHotelStatusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYHotelStatusTests;
@@ -465,6 +704,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
+				GCC_PREFIX_HEADER = "JYHotelStatus/JY-Prefix.pch";
 				INFOPLIST_FILE = JYHotelStatusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.JYHotelStatusTests;
@@ -516,6 +756,7 @@
 				80C6766F1E8E5E25000303C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C676701E8E5E25000303C9 /* Build configuration list for PBXNativeTarget "JYHotelStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +765,7 @@
 				80C676721E8E5E25000303C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C676731E8E5E25000303C9 /* Build configuration list for PBXNativeTarget "JYHotelStatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +774,7 @@
 				80C676751E8E5E25000303C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
